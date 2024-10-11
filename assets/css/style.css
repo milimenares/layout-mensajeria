@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-flex {
+    display: flex;
+}
+
+.contenedor-contactos {
+    flex: 0 0 25%;
+    min-height: 100vh;
+}
+
+.usuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 2px solid #eaeaea;
+}
+
+.usuario img {
+    width: 50px;
+    border-radius: 100%;
+    border: 2px solid #D4DCFF;
+}
+
+.txt-usuario {
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #1B1F21;
+}
+
+.txt-usuario h3 {
+    font-weight: 400;
+}
+
+.txt-usuario .activo {
+    font-size: 12px;
+    color: #959797;
+    font-weight: 300;
+}
+
+.txt-usuario p {
+    font-family: "Open Sans", sans-serif;
+    color: #1b1f21;
+    font-size: 14px;
+}
+
+.usuario-l {
+    display: flex;
+    align-items: center;
+}
+
+.usuario-r {
+    display: flex;
+    align-items: center;
+}
+
+.usuario-r i {
+    font-size: 30px;
+    margin: 0 10px;
+    color: #959797;
+    cursor: pointer;
+}
+
+.usuario-r a i {
+    color: #959797;
+    transition: .3s;
+}
+
+.usuario-r a:hover i {
+    color: #444749;
+    transition: .3s;
+}
+
+.bg-btn {
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 2px solid #eaeaea;
+}
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    background-color: #A491D2;
+    border: 0;
+    text-align: center;
+    transition: .3s;
+    padding: 12px 35px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #CDC3E6;
+    transition: .3s;
+}
+
+.btn:focus {
+    background-color: #BEC1BB;
+    transition: .3s;
+}
+
+.lista-contactos {
+    display: flex;
+    align-items: center;
+    padding: 12px 30px 6px 30px;
+    border-bottom: 2px solid #eaeaea;
+    background-color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.lista-contactos:hover {
+    background-color: #CDC3E6;
+    transition: .3s;
+}
+
+.lista-contactos img {
+    width: 60px;
+    border-radius: 100%;
+    border: 2px solid #D4DCFF;
+}
+
+.contenedor-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f8f8f8;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-main img {
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+.contenedor-main h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.contenedor-main h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.txt-main {
+    text-align: center;
+    width: 50%;
+}
+
+
+
+
